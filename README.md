@@ -1,2 +1,13 @@
-# Sistema_de_arquivos_com_FUSE
-Projeto com artigo relacionado a disciplina de Projeto e Implementação de Sistemas Operacionais
+# Sistema de Arquivos FUSE em C (Entrega Parcial)
+
+Este projeto contempla a implementação parcial de um sistema de arquivos em espaço de usuário (FUSE) desenvolvido em linguagem C.
+
+---
+
+## 🛠️ Pré-requisitos
+
+Para compilar e executar o projeto em uma máquina virtual Linux (Ubuntu/Debian), instale as seguintes dependências:
+
+```bash
+sudo apt update
+sudo apt install -y build-essential libfuse-dev pkg-config
