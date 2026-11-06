@@ -12,6 +12,3 @@ Para compilar e executar o projeto em uma máquina virtual Linux (Ubuntu/Debian)
 sudo apt update
 sudo apt install -y build-essential libfuse-dev pkg-config
 
----
-```bash
-gcc -Wall meu_fs.c `pkg-config fuse --cflags --libs` -o meu_fs
